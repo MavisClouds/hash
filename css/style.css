@@ -1,0 +1,81 @@
+.blrimg
+{
+
+	background-image: url("photos/aufrost.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 400px; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cstbttn
+{
+	background-color: white;
+}
+
+.allem
+{
+	background: url("../photos/branchcd.jpg");
+}
+
+.crltext
+{
+	background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.cnainpst
+{
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	background-color: white;
+}
+
+.rcorners
+{
+	background-color: rgba(255,255,255, 0.4);
+	position: absolute;
+	top: 95%;
+	left: 50%;
+  border-radius: 25px;
+  border: 5px solid #309eff;
+  padding: 20px; 
+  font-weight: bold;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+}
+.blrimgpst
+{
+	background-image: url("../photos/aufrost.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 800px; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
